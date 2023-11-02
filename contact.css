@@ -1,0 +1,26 @@
+.form-container {
+    width: 50%;
+    margin: 15px auto;
+    padding: 10px;
+    background-color: #4c8450;
+    border: 1px solid #ccc;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+  input{
+    width: 100%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #0c3a0b;
+    border-radius: 4px;
+  }
+  textarea{
+    resize: none;
+  }
+  .social{
+    display: flex;
+    flex-direction: row;
+  }
