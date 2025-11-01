@@ -19,20 +19,32 @@ body{
     align-items: center;
 }
 .logo{
-    font-size: 30px;
+    /* font-size: 30px;
     color: #ededed;
+    text-decoration: none;
+    font-weight: 700; */
+    font-size: 1.8em;
+    color: #BB86FC;
     text-decoration: none;
     font-weight: 700;
 }
 .navbar a {
-    font-size: 15px;
+    /* font-size: 15px;
     color: #ededed;
     text-decoration: none;
     font-weight:600;
-    margin-left:30px;    
+    margin-left:30px;     */
+    font-size: 1em;
+    color: #E0E0E0;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: color 0.3s;
 }
-.navbar a:hover{
-    color: #00abf0;
+.navbar a:hover,
+.navbar a.active{
+    /* color: #00abf0; */
+    color: #BB86FC;
 }
 @media screen and (min-width:500px){
     .home{
@@ -115,4 +127,9 @@ body{
     background: transparent;
     margin: 30px;
     padding-left:30px ;
+}
+img {
+    border-radius: 15px; 
+    object-fit: cover;
+    margin: 5px; 
 }
